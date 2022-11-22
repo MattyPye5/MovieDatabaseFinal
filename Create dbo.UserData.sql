@@ -1,0 +1,18 @@
+﻿USE [C:\OOP2\OOP2PROJECT\MOVIEDATABASEFINAL\MOVIEDATABASEFINAL\MOVIETHEATRE.MDF]
+GO
+
+/****** Object: Table [dbo].[UserData] Script Date: 11/22/2022 11:54:52 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[UserData] (
+    [UserId]   INT          IDENTITY (1, 1) NOT NULL,
+    [UserName] VARCHAR (50) NOT NULL,
+    [Password] VARCHAR (50) NOT NULL,
+    [UserType] VARCHAR (50) NOT NULL
+);
+
+

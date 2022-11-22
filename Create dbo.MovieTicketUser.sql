@@ -1,0 +1,17 @@
+﻿USE [C:\OOP2\OOP2PROJECT\MOVIEDATABASEFINAL\MOVIEDATABASEFINAL\MOVIETHEATRE.MDF]
+GO
+
+/****** Object: Table [dbo].[MovieTicketUser] Script Date: 11/22/2022 11:25:41 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[MovieTicketUser] (
+    [MovieId]  INT NOT NULL,
+    [TicketId] INT NOT NULL,
+    [UserId]   INT NOT NULL
+);
+
+

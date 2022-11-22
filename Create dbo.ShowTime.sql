@@ -1,0 +1,17 @@
+﻿USE [C:\OOP2\OOP2PROJECT\MOVIEDATABASEFINAL\MOVIEDATABASEFINAL\MOVIETHEATRE.MDF]
+GO
+
+/****** Object: Table [dbo].[ShowTime] Script Date: 11/22/2022 11:44:56 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[ShowTime] (
+    [ShowTimeId]   INT IDENTITY (1, 1) NOT NULL,
+    [MovieId]      INT NOT NULL,
+    [ScreenRoomId] INT NOT NULL
+);
+
+

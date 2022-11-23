@@ -21,5 +21,12 @@ namespace MovieDatabaseFinal
         {
 
         }
+
+        private void screenRoomButton_Click(object sender, EventArgs e)
+        {
+            ScreenRoomForm myScreenRoom = new ScreenRoomForm();
+            myScreenRoom.ShowDialog();
+
+        }
     }
 }

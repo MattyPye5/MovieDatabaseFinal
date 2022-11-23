@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MovieDatabaseFinal
 {
-    public partial class Form1 : Form
+    public partial class AccessManagerForm : Form
     {
-        public Form1()
+        public AccessManagerForm()
         {
             InitializeComponent();
         }

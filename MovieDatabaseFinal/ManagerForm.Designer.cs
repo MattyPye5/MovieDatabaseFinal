@@ -39,15 +39,22 @@
             // 
             // moviesButton
             // 
+            this.moviesButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.moviesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.moviesButton.ForeColor = System.Drawing.Color.IndianRed;
             this.moviesButton.Location = new System.Drawing.Point(59, 42);
             this.moviesButton.Name = "moviesButton";
             this.moviesButton.Size = new System.Drawing.Size(182, 53);
             this.moviesButton.TabIndex = 0;
             this.moviesButton.Text = "Movies";
             this.moviesButton.UseVisualStyleBackColor = true;
+            this.moviesButton.Click += new System.EventHandler(this.moviesButton_Click);
             // 
             // screenRoomButton
             // 
+            this.screenRoomButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.screenRoomButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.screenRoomButton.ForeColor = System.Drawing.Color.IndianRed;
             this.screenRoomButton.Location = new System.Drawing.Point(392, 42);
             this.screenRoomButton.Name = "screenRoomButton";
             this.screenRoomButton.Size = new System.Drawing.Size(182, 53);
@@ -58,6 +65,9 @@
             // 
             // ticketsButton
             // 
+            this.ticketsButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ticketsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ticketsButton.ForeColor = System.Drawing.Color.IndianRed;
             this.ticketsButton.Location = new System.Drawing.Point(392, 145);
             this.ticketsButton.Name = "ticketsButton";
             this.ticketsButton.Size = new System.Drawing.Size(182, 53);
@@ -67,6 +77,9 @@
             // 
             // showtimeButton
             // 
+            this.showtimeButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.showtimeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showtimeButton.ForeColor = System.Drawing.Color.IndianRed;
             this.showtimeButton.Location = new System.Drawing.Point(59, 145);
             this.showtimeButton.Name = "showtimeButton";
             this.showtimeButton.Size = new System.Drawing.Size(182, 53);
@@ -76,6 +89,9 @@
             // 
             // clientButton
             // 
+            this.clientButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.clientButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clientButton.ForeColor = System.Drawing.Color.IndianRed;
             this.clientButton.Location = new System.Drawing.Point(233, 257);
             this.clientButton.Name = "clientButton";
             this.clientButton.Size = new System.Drawing.Size(182, 53);
@@ -86,6 +102,9 @@
             // 
             // exitButton
             // 
+            this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exitButton.ForeColor = System.Drawing.Color.IndianRed;
             this.exitButton.Location = new System.Drawing.Point(233, 385);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(182, 53);

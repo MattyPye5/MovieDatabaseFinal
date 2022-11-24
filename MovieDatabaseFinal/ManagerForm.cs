@@ -28,5 +28,12 @@ namespace MovieDatabaseFinal
             myScreenRoom.ShowDialog();
 
         }
+
+        
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

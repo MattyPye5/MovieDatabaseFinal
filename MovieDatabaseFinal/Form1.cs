@@ -16,5 +16,11 @@ namespace MovieDatabaseFinal
         {
             InitializeComponent();
         }
+
+        private void loginButton_Click(object sender, EventArgs e)
+        {
+            managerForm myForm= new managerForm();
+            myForm.ShowDialog();
+        }
     }
 }

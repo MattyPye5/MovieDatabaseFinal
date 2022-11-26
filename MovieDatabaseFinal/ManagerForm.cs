@@ -38,8 +38,8 @@ namespace MovieDatabaseFinal
 
         private void moviesButton_Click(object sender, EventArgs e)
         {
-            MovieForm movie= new MovieForm();
-            movie.ShowDialog();
+            ClientForm movie= new ClientForm();
+           movie.ShowDialog();
         }
     }
 }
